@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Page</title>
+    <link rel="stylesheet" href="pricingpage.css">
+</head>
+
+<body>
+    <!-- THE NAVBAR OF THE PAGE IS HERE -->
+    <div class="navbar">
+        <div class="navlogo"></div>
+        
+        <div class="navbaroption">
+            <a href="#">HOME</a>
+            <a href="#">COMPANY</a>
+            <a href="pricingpage.html">PRICING</a>
+            <a href="#">SINGUP</a>
+            <a href="#">LOGIN</a>
+        </div>
+        <div class="currency-selector">
+            <label for="currency">Choose Currency:</label>
+            <select id="currency" onchange="changeCurrency()">
+                <option value="usd">USD ($)</option>
+                <option value="eur">EUR (€)</option>
+                <option value="gbp">GBP (£)</option>
+                <option value="inr">INR (₹)</option>
+                <option value="cad">CAD (CA$)</option>
+                <option value="aud">AUD (A$)</option>
+                <option value="jpy">JPY (¥)</option>
+              
+            </select>
+        </div>
+    </div>
+
+    
+
+    <!-- the header part of the page -->
+    <div class="heading">
+        <div class="smalltext">Find your Beat <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-music-2"><circle cx="8" cy="18" r="4"/><path d="M12 18V2l7 4"/></svg></div>
+        <div class="largetext">
+            <h1>Find the <span> Right Plan.</span></h1>
+        </div>
+        <div class="conteninheader">“Music is the language of the spirit. It opens the secret of life bringing peace, abolishing strife.” </p>.</div>
+    </div>
+
+    <!-- the pricing part of the page -->
+    <div class="container">
+       <div class="box">
+          <div class="pricingbox">
+            <div class="pricepage1">
+                <p class="textinbox">Individual</p>
+                <hr>
+                <p class="price"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dollar-sign"><line x1="12" x2="12" y1="2" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>10</p>
+
+                <div class="detailsofaccount">
+                    <p class="brief">
+                        <ul>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5"/></svg>1 account</li>
+
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5"/></svg>no download</li>
+
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5"/></svg>lateset update</li>
+
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5"/></svg>no tunes</li>
+
+                        </ul>
+                    </p>
+                </div>
+
+                <button class="btn">Listen  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-headphones"><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/></svg> </button>
+            </div>
+
+            <div class="pricepage2">
+                <p class="textinbox">Duo</p>
+                <hr>
+                <p class="price"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dollar-sign"><line x1="12" x2="12" y1="2" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>40</p>
+
+                <div class="detailsofaccount">
+                    <p class="brief">
+                        <ul>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5"/></svg>2 account</li>
+
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5"/></svg>Free download</li>
+
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5"/></svg>lateset update</li>
+
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5"/></svg>Limited tunes </li>
+
+                        </ul>
+                    </p>
+                </div>
+
+                <button class="btn">Listen  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-headphones"><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/></svg> </button>
+            </div>
+
+            <div class="pricepage3">
+                <p class="textinbox">Family</p>
+                <hr>
+                <p class="price"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dollar-sign"><line x1="12" x2="12" y1="2" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>80</p>
+
+                <div class="detailsofaccount">
+                    <p class="brief">
+                        <ul>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5"/></svg>7 account</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5"/></svg>Unlimited download</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5"/></svg>lateset update</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5"/></svg>Unlimited tunes</li>
+                        </ul>
+                    </p>
+                </div>
+                <button class="btn">Listen  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-headphones"><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/></svg> </button>
+            </div>
+          </div>
+       </div>
+    </div>
+
+<div class="card-section">
+    <div class="card-heading">
+        <p>
+            The power of Premium
+        </p>
+    </div>
+    <div class="card-group">
+        
+        <div class="card">
+            <div class="card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-guitar"><path d="m20 7 1.7-1.7a1 1 0 0 0 0-1.4l-1.6-1.6a1 1 0 0 0-1.4 0L17 4v3Z"/><path d="m17 7-5.1 5.1"/><circle cx="11.5" cy="12.5" r=".5"/><path d="M6 12a2 2 0 0 0 1.8-1.2l.4-.9C8.7 8.8 9.8 8 11 8c2.8 0 5 2.2 5 5 0 1.2-.8 2.3-1.9 2.8l-.9.4A2 2 0 0 0 12 18a4 4 0 0 1-4 4c-3.3 0-6-2.7-6-6a4 4 0 0 1 4-4"/><path d="m6 16 2 2"/></svg>
+            </div>
+          <div class="card-body">
+            <h5 class="card-title">Ad-free music</h5>
+            <p class="card-text">listening,
+                Enjoy uninterrupted music.</p>
+          </div>
+          
+        </div>
+
+        <div class="card">
+          <div class="card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mic-2"><path d="m12 8-9.04 9.06a2.82 2.82 0 1 0 3.98 3.98L16 12"/><circle cx="17" cy="7" r="5"/></svg>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Offline playback</h5>
+            <p class="card-text">Save your data by listening offline</p>
+          </div>
+          
+        </div>
+
+        <div class="card">
+        <div class="card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-speaker"><rect width="16" height="20" x="4" y="2" rx="2"/><path d="M12 6h.01"/><circle cx="12" cy="14" r="4"/><path d="M12 14h.01"/></svg>
+        </div>
+          <div class="card-body">
+            <h5 class="card-title">Play everywhere</h5>
+            <p class="card-text">Listen on your speakers, TV, and other favorite devices.</p>
+          </div>
+          
+        </div>
+
+        <div class="card">
+            <div class="card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play-square"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="m9 8 6 4-6 4Z"/></svg>
+            </div>
+              <div class="card-body">
+                <h5 class="card-title">Pay your way</h5>
+                <p class="card-text">Prepay with Paytm, UPI, and more.</p>
+              </div>
+              
+            </div>
+
+      </div>
+</div>
+
+
+
+<footer class="footer">
+    <div class="faq-section">
+        <div class="headingoffooter">
+            <h1>Frequently Asked Questions</h1>
+        </div>
+
+        <div class="Qna">
+            <div class="Q1">
+                <h3>What is the difference between Individual and Family plans?</h3>
+            <div class="question" onclick="toggleAnswer(this)">
+                <div class="answer">
+                    <p>The Individual plan is for a single user, while the Family plan allows up to 7 accounts, perfect for families or groups.</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="Q2">
+                <h3>Can I download music for offline listening?</h3>
+            <div class="question" onclick="toggleAnswer(this)">
+                <div class="answer">
+                    <p>Yes, all our plans support offline playback. You can enjoy your favorite tunes without using your data.</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="Q3">
+                <h3>Are there any ads in the Premium plan?</h3>
+            <div class="question" onclick="toggleAnswer(this)">
+                <div class="answer">
+                    <p>No, the Premium plan offers ad-free music listening, providing an uninterrupted experience.</p>
+                </div>
+            </div>
+            </div>
+         
+            <div class="Q4">
+                
+            <h3>How can I pay for my subscription?</h3>
+            <div class="question" onclick="toggleAnswer(this)">
+                <div class="answer">
+                    <p>We accept various payment methods, including Paytm, UPI, and more. You can choose the option that suits you best.</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="Q5">
+                <h3>Do I get the latest music updates with the plans?</h3>
+            <div class="question" onclick="toggleAnswer(this)">
+                <div class="answer">
+                    <p>Yes, all our plans include the latest music updates, ensuring you stay in tune with the newest releases.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<div class="bottom-top">
+    <ul>
+        <h2>Service</h2>
+        <a href="#">Stream millions of songs</a>
+        <a href="#">various payment methods</a>
+        <a href="#">spend their time</a>
+        <a href="#"> How it work</a>
+        <a href="#"> Refund</a>
+    </ul>
+    
+   
+    <ul>
+        <h2>ABOUT</h2>
+        <a href="#">Who we are</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Qna</a>
+        <a href="#">Privarcy Policy</a>
+    </ul>
+    
+   <!-- Find Us -->
+<ul>
+    <h2 class="findus">Find Us</h2>
+       
+    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg></a>
+
+    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+
+</ul>
+
+    
+    
+</div>
+    <div class="bottom-footer">
+        <h5>Conditions of Use
+            Privacy Notice
+            Your Ads Privacy Choices</h5>
+         <h5>© 1996-2023, Beats.com, Inc. or its affiliates</h5>
+    </div>
+  
+</div>  
+
+<script>
+    function toggleAnswer(element) {
+        const answer = element.querySelector('.answer');
+        element.classList.toggle('active');
+        answer.style.display = (answer.style.display === 'block') ? 'none' : 'block';
+    }
+</script>
+<script src="pricingpage.js"></script>
+</body>
+
+</html>
